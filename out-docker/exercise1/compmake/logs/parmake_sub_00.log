@@ -1,0 +1,18 @@
+parmake_sub_00: started pmake_worker()
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7feb96279af0>, ('_dynreports_create_index', <compmake.context.Context object at 0x7feb5e64fc10>, 'q-140648878030224-238', True, '/out-docker/exercise1/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': {'exercise1-0-exercise1_report-write'}, 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7feb96279af0>, ('exercise1-0-exercise1_report-write', <compmake.context.Context object at 0x7feb931815b0>, 'q-140648878030224-238', True, '/out-docker/exercise1/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: Received EXIT_TOKEN.
+parmake_sub_00: saving coverage
+parmake_sub_00: saved coverage
+parmake_sub_00: clean exit.

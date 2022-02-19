@@ -1,0 +1,18 @@
+parmake_sub_06: started pmake_worker()
+parmake_sub_06: Listening for job
+parmake_sub_06: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-DepthFirst6-BreadthFirst7-algo_placeholder', <compmake.context.Context object at 0x7f422988da30>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_06: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_06: putting result in result_queue..
+parmake_sub_06: (done)
+parmake_sub_06: ...done.
+parmake_sub_06: Listening for job
+parmake_sub_06: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-DepthFirst6-BreadthFirst7-exercise2_report', <compmake.context.Context object at 0x7f425e731a30>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_06: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_06: putting result in result_queue..
+parmake_sub_06: (done)
+parmake_sub_06: ...done.
+parmake_sub_06: Listening for job
+parmake_sub_06: Received EXIT_TOKEN.
+parmake_sub_06: saving coverage
+parmake_sub_06: saved coverage
+parmake_sub_06: clean exit.

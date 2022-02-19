@@ -1,0 +1,24 @@
+parmake_sub_00: started pmake_worker()
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f0951f74af0>, ('_dynreports_create_index', <compmake.context.Context object at 0x7f091a3440d0>, 'q-139677071380336-6410', True, '/out-docker/final21/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': {'final21-dynamic_environment0-ex_final21_report-write'}, 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f0951f74af0>, ('final21-dynamic_environment0-ex_final21_report', <compmake.context.Context object at 0x7f094ee96d30>, 'q-139677071380336-6410', True, '/out-docker/final21/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f0951f74af0>, ('final21-dynamic_environment0-ex_final21_report-write', <compmake.context.Context object at 0x7f094e3556d0>, 'q-139677071380336-6410', True, '/out-docker/final21/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: Received EXIT_TOKEN.
+parmake_sub_00: saving coverage
+parmake_sub_00: saved coverage
+parmake_sub_00: clean exit.

@@ -1,0 +1,40 @@
+parmake_sub_01: started pmake_worker()
+parmake_sub_01: Listening for job
+parmake_sub_01: got job: (<function parmake_job2 at 0x7f0951f74af0>, ('final21-dynamic_environment0-algo_placeholder', <compmake.context.Context object at 0x7f091a342340>, 'q-139677071380336-6410', True, '/out-docker/final21/compmake/parmake_job2_logs'))
+parmake_sub_01: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_01: putting result in result_queue..
+parmake_sub_01: (done)
+parmake_sub_01: ...done.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Received EXIT_TOKEN.
+parmake_sub_01: saving coverage
+parmake_sub_01: saved coverage
+parmake_sub_01: clean exit.

@@ -1,0 +1,341 @@
+
+<html>
+<head>  
+    <meta charset="utf-8" /> 
+    <script type="text/javascript" 
+        src="../reprep-static/jquery/jquery.js"></script>
+    
+    <!-- Use imagezoom plugin --> 
+    <script type="text/javascript" 
+        src="../reprep-static/jquery/jquery.imageZoom.js"></script>
+    <link rel="stylesheet" 
+          href="../reprep-static/jquery/jquery.imageZoom.css"/>
+    <script type="text/javascript"> 
+        $(document).ready( function () {
+            $('.zoomable').imageZoom();
+        });       
+    </script>
+    
+    
+    <!-- Use tablesorter plugin -->
+    <script type="text/javascript" 
+            src="../reprep-static/jquery/tablesorter/jquery.tablesorter.js"></script> 
+    <link rel="stylesheet" 
+          href="../reprep-static/jquery/tablesorter/themes/blue/style.css"/>
+    <script type="text/javascript">
+    $(document).ready(function() { 
+        $(".tablesorter").tablesorter(); 
+    } 
+    ); 
+    </script>
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { 
+            equationNumbers: { autoNumber: "AMS" },
+            extensions: ["AMSmath.js", "AMSsymbols.js"] 
+        },
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/SVG"], //" "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$']],
+          displayMath: [ ['$$','$$'] ], 
+          processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+      //MathJax.Ajax.loadComplete("/media/tex/symbols.js");
+    </script>
+    
+    <script type='text/javascript' 
+            src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+
+    
+    <style type="text/css">
+    /* Extra CSS passed by user. */
+        
+    </style>
+
+    
+    <link rel="stylesheet" 
+          href="../reprep-static/reprep/default_style.css"/>
+
+    <title> PDM4AR-exercise3-Astar8-PDM4AR </title>
+<body>
+
+<p id="reprep-head"> 
+    Report created on 2022-02-17-08:41:20
+    by <a href="http://purl.org/censi/2010/RepRep">RepRep</a>.
+    Show:
+    <input type="submit" name="datanode_toggle" 
+           value="data nodes" id="datanode_toggle" /> 
+</p>
+
+<div style="margin-left: 1em;"><p><a href='../../report.html'>All report</a></p><table class='variations'><thead><tr><th>TestID</th><th>Exercise</th></tr></thead><tr><td><a href='PDM4AR-exercise3-Astar2.html'> Astar2</a> <br/>
+<a href='PDM4AR-exercise3-Astar5.html'> Astar5</a> <br/>
+Astar8 <br/>
+<a href='PDM4AR-exercise3-GreedyBestFirst1.html'> GreedyBestFirst1</a> <br/>
+<a href='PDM4AR-exercise3-GreedyBestFirst4.html'> GreedyBestFirst4</a> <br/>
+<a href='PDM4AR-exercise3-GreedyBestFirst7.html'> GreedyBestFirst7</a> <br/>
+<a href='PDM4AR-exercise3-UniformCostSearch0.html'> UniformCostSearch0</a> <br/>
+<a href='PDM4AR-exercise3-UniformCostSearch3.html'> UniformCostSearch3</a> <br/>
+<a href='PDM4AR-exercise3-UniformCostSearch6.html'> UniformCostSearch6</a> <br/>
+</td><td>exercise3 <br/>
+</td></tr></table></div>
+
+<script type="text/javascript">
+ $(document).ready(function() {
+   $('.datanode').hide();
+   $('#datanode_toggle').click(function(){
+     $('.datanode').toggle();
+   });
+ });
+</script>
+
+
+
+    <div class='report-node' id="PDM4AR-exercise3-Astar8-PDM4AR">
+    <h><a href="#PDM4AR-exercise3-Astar8-PDM4AR">PDM4AR-exercise3-Astar8-PDM4AR</a></h><section> 
+<div class="report-nongui-nodes">
+<div style="clear:left" class='report-figure None' id='PDM4AR-exercise3-Astar8-PDM4AR-figure1'>
+    <div class="report-subfigure ncols-1 first-col last-col"> 
+                    <a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure1-Graph.png" class="zoomable">
+                        <img src="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure1-Graph.png"/>
+                    </a>    
+                <p class="report-subfigure-caption">Graph</p><p class="report-subfigure-main-link"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure1-Graph.pdf"> main </a></p></div> 
+
+<p class="report-figure-caption"></p><div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure1-Graph.pdf">Graph</a>:  application/pdf</p>
+<div class="datanode-children">
+<div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure1-Graph.png">png</a>:  image/png</p>
+</div>
+</div>
+</div>
+</div>
+    <div class='report-node' id="PDM4AR-exercise3-Astar8-PDM4AR-Astar">
+    <h><a href="#PDM4AR-exercise3-Astar8-PDM4AR-Astar">Astar</a></h><section> 
+</section> 
+</div> 
+<div style="clear:left" class='report-figure None' id='PDM4AR-exercise3-Astar8-PDM4AR-figure2'>
+    <div class="report-subfigure ncols-2 first-col"> 
+                    <a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-GroundTruth0.png" class="zoomable">
+                        <img src="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-GroundTruth0.png"/>
+                    </a>    
+                <p class="report-subfigure-caption">GroundTruth0</p><p class="report-subfigure-main-link"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-GroundTruth0.pdf"> main </a></p></div> <div class="report-subfigure ncols-2 last-col"> 
+                    <a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-YourPath0.png" class="zoomable">
+                        <img src="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-YourPath0.png"/>
+                    </a>    
+                <p class="report-subfigure-caption">YourPath0</p><p class="report-subfigure-main-link"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-YourPath0.pdf"> main </a></p></div> 
+
+<p class="report-figure-caption"></p><div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-GroundTruth0.pdf">GroundTruth0</a>:  application/pdf</p>
+<div class="datanode-children">
+<div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-GroundTruth0.png">png</a>:  image/png</p>
+</div>
+</div>
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-YourPath0.pdf">YourPath0</a>:  application/pdf</p>
+<div class="datanode-children">
+<div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure2-YourPath0.png">png</a>:  image/png</p>
+</div>
+</div>
+</div>
+</div>
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Astar-query0 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Start: 27552404,	Goal: 1277284753
+Ground truth path cost:	163.13
+Your path cost:	163.13
+Your path matches the shortest path
+</pre>
+               </div>
+
+            </div>  
+            <div style="clear:left" class='report-figure None' id='PDM4AR-exercise3-Astar8-PDM4AR-figure3'>
+    <p class="report-figure-caption"></p></div>
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Astar-query1 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Start: 1558250483,	Goal: 1265957289
+No path exists
+Your algo did not find any path.
+</pre>
+               </div>
+
+            </div>  
+            <div style="clear:left" class='report-figure None' id='PDM4AR-exercise3-Astar8-PDM4AR-figure4'>
+    <div class="report-subfigure ncols-2 first-col"> 
+                    <a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-GroundTruth2.png" class="zoomable">
+                        <img src="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-GroundTruth2.png"/>
+                    </a>    
+                <p class="report-subfigure-caption">GroundTruth2</p><p class="report-subfigure-main-link"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-GroundTruth2.pdf"> main </a></p></div> <div class="report-subfigure ncols-2 last-col"> 
+                    <a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-YourPath2.png" class="zoomable">
+                        <img src="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-YourPath2.png"/>
+                    </a>    
+                <p class="report-subfigure-caption">YourPath2</p><p class="report-subfigure-main-link"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-YourPath2.pdf"> main </a></p></div> 
+
+<p class="report-figure-caption"></p><div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-GroundTruth2.pdf">GroundTruth2</a>:  application/pdf</p>
+<div class="datanode-children">
+<div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-GroundTruth2.png">png</a>:  image/png</p>
+</div>
+</div>
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-YourPath2.pdf">YourPath2</a>:  application/pdf</p>
+<div class="datanode-children">
+<div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure4-YourPath2.png">png</a>:  image/png</p>
+</div>
+</div>
+</div>
+</div>
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Astar-query2 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Start: 251289218,	Goal: 21226980
+Ground truth path cost:	53.13
+Your path cost:	53.13
+Your path matches the shortest path
+</pre>
+               </div>
+
+            </div>  
+            <div style="clear:left" class='report-figure None' id='PDM4AR-exercise3-Astar8-PDM4AR-figure5'>
+    <div class="report-subfigure ncols-2 first-col"> 
+                    <a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-GroundTruth3.png" class="zoomable">
+                        <img src="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-GroundTruth3.png"/>
+                    </a>    
+                <p class="report-subfigure-caption">GroundTruth3</p><p class="report-subfigure-main-link"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-GroundTruth3.pdf"> main </a></p></div> <div class="report-subfigure ncols-2 last-col"> 
+                    <a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-YourPath3.png" class="zoomable">
+                        <img src="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-YourPath3.png"/>
+                    </a>    
+                <p class="report-subfigure-caption">YourPath3</p><p class="report-subfigure-main-link"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-YourPath3.pdf"> main </a></p></div> 
+
+<p class="report-figure-caption"></p><div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-GroundTruth3.pdf">GroundTruth3</a>:  application/pdf</p>
+<div class="datanode-children">
+<div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-GroundTruth3.png">png</a>:  image/png</p>
+</div>
+</div>
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-YourPath3.pdf">YourPath3</a>:  application/pdf</p>
+<div class="datanode-children">
+<div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure5-YourPath3.png">png</a>:  image/png</p>
+</div>
+</div>
+</div>
+</div>
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Astar-query3 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Start: 1584826157,	Goal: 251289403
+Ground truth path cost:	70.48
+Your path cost:	70.48
+Your path matches the shortest path
+</pre>
+               </div>
+
+            </div>  
+            <div style="clear:left" class='report-figure None' id='PDM4AR-exercise3-Astar8-PDM4AR-figure6'>
+    <div class="report-subfigure ncols-2 first-col"> 
+                    <a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-GroundTruth4.png" class="zoomable">
+                        <img src="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-GroundTruth4.png"/>
+                    </a>    
+                <p class="report-subfigure-caption">GroundTruth4</p><p class="report-subfigure-main-link"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-GroundTruth4.pdf"> main </a></p></div> <div class="report-subfigure ncols-2 last-col"> 
+                    <a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-YourPath4.png" class="zoomable">
+                        <img src="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-YourPath4.png"/>
+                    </a>    
+                <p class="report-subfigure-caption">YourPath4</p><p class="report-subfigure-main-link"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-YourPath4.pdf"> main </a></p></div> 
+
+<p class="report-figure-caption"></p><div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-GroundTruth4.pdf">GroundTruth4</a>:  application/pdf</p>
+<div class="datanode-children">
+<div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-GroundTruth4.png">png</a>:  image/png</p>
+</div>
+</div>
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-YourPath4.pdf">YourPath4</a>:  application/pdf</p>
+<div class="datanode-children">
+<div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-exercise3-Astar8/PDM4AR-exercise3-Astar8-PDM4AR-figure6-YourPath4.png">png</a>:  image/png</p>
+</div>
+</div>
+</div>
+</div>
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Astar-query4 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Start: 268591106,	Goal: 2075241344
+Ground truth path cost:	95.91
+Your path cost:	95.91
+Your path matches the shortest path
+</pre>
+               </div>
+
+            </div>  
+            </div>
+</section> 
+</div> 
+
+ 
+<pre style="display:none">- Exercise3-WeightedGraphSearch (Node)
+  - figure1 (Figure)
+   sub Sub(Graph,Graph,Graph/png,Graph)
+    - Graph (<class 'reprep.datanode.DataNode'> application/pdf)
+      - png (<class 'reprep.datanode.DataNode'> image/png)
+  - Astar (Node)
+  - figure2 (Figure)
+   sub Sub(GroundTruth0,GroundTruth0,GroundTruth0/png,GroundTruth0)
+   sub Sub(YourPath0,YourPath0,YourPath0/png,YourPath0)
+    - GroundTruth0 (<class 'reprep.datanode.DataNode'> application/pdf)
+      - png (<class 'reprep.datanode.DataNode'> image/png)
+    - YourPath0 (<class 'reprep.datanode.DataNode'> application/pdf)
+      - png (<class 'reprep.datanode.DataNode'> image/png)
+  - Astar-query0 (<class 'reprep.datanode.DataNode'> text/plain)
+  - figure3 (Figure)
+  - Astar-query1 (<class 'reprep.datanode.DataNode'> text/plain)
+  - figure4 (Figure)
+   sub Sub(GroundTruth2,GroundTruth2,GroundTruth2/png,GroundTruth2)
+   sub Sub(YourPath2,YourPath2,YourPath2/png,YourPath2)
+    - GroundTruth2 (<class 'reprep.datanode.DataNode'> application/pdf)
+      - png (<class 'reprep.datanode.DataNode'> image/png)
+    - YourPath2 (<class 'reprep.datanode.DataNode'> application/pdf)
+      - png (<class 'reprep.datanode.DataNode'> image/png)
+  - Astar-query2 (<class 'reprep.datanode.DataNode'> text/plain)
+  - figure5 (Figure)
+   sub Sub(GroundTruth3,GroundTruth3,GroundTruth3/png,GroundTruth3)
+   sub Sub(YourPath3,YourPath3,YourPath3/png,YourPath3)
+    - GroundTruth3 (<class 'reprep.datanode.DataNode'> application/pdf)
+      - png (<class 'reprep.datanode.DataNode'> image/png)
+    - YourPath3 (<class 'reprep.datanode.DataNode'> application/pdf)
+      - png (<class 'reprep.datanode.DataNode'> image/png)
+  - Astar-query3 (<class 'reprep.datanode.DataNode'> text/plain)
+  - figure6 (Figure)
+   sub Sub(GroundTruth4,GroundTruth4,GroundTruth4/png,GroundTruth4)
+   sub Sub(YourPath4,YourPath4,YourPath4/png,YourPath4)
+    - GroundTruth4 (<class 'reprep.datanode.DataNode'> application/pdf)
+      - png (<class 'reprep.datanode.DataNode'> image/png)
+    - YourPath4 (<class 'reprep.datanode.DataNode'> application/pdf)
+      - png (<class 'reprep.datanode.DataNode'> image/png)
+  - Astar-query4 (<class 'reprep.datanode.DataNode'> text/plain)
+</pre>
+
+</body>
+</html>

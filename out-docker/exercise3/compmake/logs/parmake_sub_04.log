@@ -1,0 +1,36 @@
+parmake_sub_04: started pmake_worker()
+parmake_sub_04: Listening for job
+parmake_sub_04: got job: (<function parmake_job2 at 0x7fbfc3c71af0>, ('exercise3-UniformCostSearch0-algo_placeholder', <compmake.context.Context object at 0x7fbf8bdf4a00>, 'q-140460655548208-9286', True, '/out-docker/exercise3/compmake/parmake_job2_logs'))
+parmake_sub_04: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_04: putting result in result_queue..
+parmake_sub_04: (done)
+parmake_sub_04: ...done.
+parmake_sub_04: Listening for job
+parmake_sub_04: got job: (<function parmake_job2 at 0x7fbfc3c71af0>, ('exercise3-UniformCostSearch0-exercise3_report', <compmake.context.Context object at 0x7fbf8b7be550>, 'q-140460655548208-9286', True, '/out-docker/exercise3/compmake/parmake_job2_logs'))
+parmake_sub_04: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_04: putting result in result_queue..
+parmake_sub_04: (done)
+parmake_sub_04: ...done.
+parmake_sub_04: Listening for job
+parmake_sub_04: got job: (<function parmake_job2 at 0x7fbfc3c71af0>, ('exercise3-UniformCostSearch0-exercise3_report-write', <compmake.context.Context object at 0x7fbf8bdf4430>, 'q-140460655548208-9286', True, '/out-docker/exercise3/compmake/parmake_job2_logs'))
+parmake_sub_04: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_04: putting result in result_queue..
+parmake_sub_04: (done)
+parmake_sub_04: ...done.
+parmake_sub_04: Listening for job
+parmake_sub_04: got job: (<function parmake_job2 at 0x7fbfc3c71af0>, ('exercise3-UniformCostSearch0-GreedyBestFirst1-Astar2-UniformCostSearch3-GreedyBestFirst4-Astar5-UniformCostSearch6-GreedyBestFirst7-algo_placeholder', <compmake.context.Context object at 0x7fbf8b7be940>, 'q-140460655548208-9286', True, '/out-docker/exercise3/compmake/parmake_job2_logs'))
+parmake_sub_04: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_04: putting result in result_queue..
+parmake_sub_04: (done)
+parmake_sub_04: ...done.
+parmake_sub_04: Listening for job
+parmake_sub_04: got job: (<function parmake_job2 at 0x7fbfc3c71af0>, ('exercise3-UniformCostSearch0-GreedyBestFirst1-Astar2-UniformCostSearch3-GreedyBestFirst4-Astar5-UniformCostSearch6-GreedyBestFirst7-exercise3_report', <compmake.context.Context object at 0x7fbf8b7be910>, 'q-140460655548208-9286', True, '/out-docker/exercise3/compmake/parmake_job2_logs'))
+parmake_sub_04: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_04: putting result in result_queue..
+parmake_sub_04: (done)
+parmake_sub_04: ...done.
+parmake_sub_04: Listening for job
+parmake_sub_04: Received EXIT_TOKEN.
+parmake_sub_04: saving coverage
+parmake_sub_04: saved coverage
+parmake_sub_04: clean exit.

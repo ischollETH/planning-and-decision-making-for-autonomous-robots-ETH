@@ -1,0 +1,146 @@
+
+<html>
+<head>  
+    <meta charset="utf-8" /> 
+    <script type="text/javascript" 
+        src="../reprep-static/jquery/jquery.js"></script>
+    
+    <!-- Use imagezoom plugin --> 
+    <script type="text/javascript" 
+        src="../reprep-static/jquery/jquery.imageZoom.js"></script>
+    <link rel="stylesheet" 
+          href="../reprep-static/jquery/jquery.imageZoom.css"/>
+    <script type="text/javascript"> 
+        $(document).ready( function () {
+            $('.zoomable').imageZoom();
+        });       
+    </script>
+    
+    
+    <!-- Use tablesorter plugin -->
+    <script type="text/javascript" 
+            src="../reprep-static/jquery/tablesorter/jquery.tablesorter.js"></script> 
+    <link rel="stylesheet" 
+          href="../reprep-static/jquery/tablesorter/themes/blue/style.css"/>
+    <script type="text/javascript">
+    $(document).ready(function() { 
+        $(".tablesorter").tablesorter(); 
+    } 
+    ); 
+    </script>
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { 
+            equationNumbers: { autoNumber: "AMS" },
+            extensions: ["AMSmath.js", "AMSsymbols.js"] 
+        },
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/SVG"], //" "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$']],
+          displayMath: [ ['$$','$$'] ], 
+          processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+      //MathJax.Ajax.loadComplete("/media/tex/symbols.js");
+    </script>
+    
+    <script type='text/javascript' 
+            src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+
+    
+    <style type="text/css">
+    /* Extra CSS passed by user. */
+        
+    </style>
+
+    
+    <link rel="stylesheet" 
+          href="../reprep-static/reprep/default_style.css"/>
+
+    <title> PDM4AR-final21-dynamicenvironment0-PDM4AR </title>
+<body>
+
+<p id="reprep-head"> 
+    Report created on 2022-02-17-10:58:15
+    by <a href="http://purl.org/censi/2010/RepRep">RepRep</a>.
+    Show:
+    <input type="submit" name="datanode_toggle" 
+           value="data nodes" id="datanode_toggle" /> 
+</p>
+
+<div style="margin-left: 1em;"><p><a href='../../report.html'>All report</a></p><table class='variations'><thead><tr><th>Exercise</th><th>TestID</th></tr></thead><tr><td>final21 <br/>
+</td><td>dynamic-environment0 <br/>
+</td></tr></table></div>
+
+<script type="text/javascript">
+ $(document).ready(function() {
+   $('.datanode').hide();
+   $('#datanode_toggle').click(function(){
+     $('.datanode').toggle();
+   });
+ });
+</script>
+
+
+
+    <div class='report-node' id="PDM4AR-final21-dynamicenvironment0-PDM4AR">
+    <h><a href="#PDM4AR-final21-dynamicenvironment0-PDM4AR">PDM4AR-final21-dynamicenvironment0-PDM4AR</a></h><section> 
+<div class="report-nongui-nodes">
+
+    <div class='report-node' id="PDM4AR-final21-dynamicenvironment0-PDM4AR-EpisodeVisualisation">
+    <h><a href="#PDM4AR-final21-dynamicenvironment0-PDM4AR-EpisodeVisualisation">EpisodeVisualisation</a></h><section> 
+<div class="report-nongui-nodes">
+<div style="clear:left" class='report-figure None' id='PDM4AR-final21-dynamicenvironment0-PDM4AR-EpisodeVisualisation-figure1'>
+    <div class="report-subfigure ncols-1 first-col last-col"> 
+                    <a href="PDM4AR-final21-dynamicenvironment0/PDM4AR-final21-dynamicenvironment0-PDM4AR-EpisodeVisualisation-figure1-Animation.gif" class="zoomable">
+                        <img src="PDM4AR-final21-dynamicenvironment0/PDM4AR-final21-dynamicenvironment0-PDM4AR-EpisodeVisualisation-figure1-Animation.gif"/>
+                    </a>    
+                <p class="report-subfigure-caption">Animation</p></div> 
+
+<p class="report-figure-caption"></p><div class="report-nongui-nodes">
+<p class="datanode"><a href="PDM4AR-final21-dynamicenvironment0/PDM4AR-final21-dynamicenvironment0-PDM4AR-EpisodeVisualisation-figure1-Animation.gif">Animation</a>:  image/gif</p>
+</div>
+</div>
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> EpisodeEvaluation </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">EpisodeOutcome(
+	goal_reached        =	    1,
+	has_collided        =	    0,
+	distance_travelled  =	152.00,
+	episode_duration    =	14.68,
+	actuation_effort    =	 8.96,
+	max_acc_lat         =	35.39,
+	max_acc_long        =	39.00,
+	avg_computation_time=	 0.15,
+
+)</pre>
+               </div>
+
+            </div>  
+            </div>
+</section> 
+</div> 
+</div>
+</section> 
+</div> 
+
+ 
+<pre style="display:none">- Final21-dynamic-environment (Node)
+  - EpisodeVisualisation (Node)
+    - figure1 (Figure)
+     sub Sub(Animation,Animation,Animation,Animation)
+      - Animation (<class 'reprep.datanode.DataNode'> image/gif)
+    - EpisodeEvaluation (<class 'reprep.datanode.DataNode'> text/plain)
+</pre>
+
+</body>
+</html>

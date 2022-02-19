@@ -1,0 +1,2 @@
+#!/bin/bash
+compmake /out-docker/final21/compmake -c "ls failed $*"

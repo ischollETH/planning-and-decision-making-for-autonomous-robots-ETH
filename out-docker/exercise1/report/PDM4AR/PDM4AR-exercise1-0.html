@@ -1,0 +1,755 @@
+
+<html>
+<head>  
+    <meta charset="utf-8" /> 
+    <script type="text/javascript" 
+        src="../reprep-static/jquery/jquery.js"></script>
+    
+    <!-- Use imagezoom plugin --> 
+    <script type="text/javascript" 
+        src="../reprep-static/jquery/jquery.imageZoom.js"></script>
+    <link rel="stylesheet" 
+          href="../reprep-static/jquery/jquery.imageZoom.css"/>
+    <script type="text/javascript"> 
+        $(document).ready( function () {
+            $('.zoomable').imageZoom();
+        });       
+    </script>
+    
+    
+    <!-- Use tablesorter plugin -->
+    <script type="text/javascript" 
+            src="../reprep-static/jquery/tablesorter/jquery.tablesorter.js"></script> 
+    <link rel="stylesheet" 
+          href="../reprep-static/jquery/tablesorter/themes/blue/style.css"/>
+    <script type="text/javascript">
+    $(document).ready(function() { 
+        $(".tablesorter").tablesorter(); 
+    } 
+    ); 
+    </script>
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { 
+            equationNumbers: { autoNumber: "AMS" },
+            extensions: ["AMSmath.js", "AMSsymbols.js"] 
+        },
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/SVG"], //" "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$']],
+          displayMath: [ ['$$','$$'] ], 
+          processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+      //MathJax.Ajax.loadComplete("/media/tex/symbols.js");
+    </script>
+    
+    <script type='text/javascript' 
+            src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+
+    
+    <style type="text/css">
+    /* Extra CSS passed by user. */
+        
+    </style>
+
+    
+    <link rel="stylesheet" 
+          href="../reprep-static/reprep/default_style.css"/>
+
+    <title> PDM4AR-exercise1-0-PDM4AR </title>
+<body>
+
+<p id="reprep-head"> 
+    Report created on 2022-02-17-08:32:40
+    by <a href="http://purl.org/censi/2010/RepRep">RepRep</a>.
+    Show:
+    <input type="submit" name="datanode_toggle" 
+           value="data nodes" id="datanode_toggle" /> 
+</p>
+
+<div style="margin-left: 1em;"><p><a href='../../report.html'>All report</a></p><table class='variations'><thead><tr><th>TestID</th><th>Exercise</th></tr></thead><tr><td>0 <br/>
+</td><td>exercise1 <br/>
+</td></tr></table></div>
+
+<script type="text/javascript">
+ $(document).ready(function() {
+   $('.datanode').hide();
+   $('#datanode_toggle').click(function(){
+     $('.datanode').toggle();
+   });
+ });
+</script>
+
+
+
+    <div class='report-node' id="PDM4AR-exercise1-0-PDM4AR">
+    <h><a href="#PDM4AR-exercise1-0-PDM4AR">PDM4AR-exercise1-0-PDM4AR</a></h><section> 
+<div class="report-nongui-nodes">
+
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test0 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(8.0, 2.0, 9.0, 4.0, 6.0, 5.0)	b:	(2.0, 9.0, 6.0, 5.0, 6.0, 10.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test1 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(6.0, 6.0, 8.0, 0.0, 2.0, 10.0)	b:	(7.0, 0.0, 1.0, 4.0, 4.0, 3.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test2 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(5.0, 9.0, 8.0, 7.0, 5.0, 5.0)	b:	(4.0, 4.0, 5.0, 0.0, 5.0, 9.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test3 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(1.0, 7.0, 4.0, 5.0, 8.0, 4.0)	b:	(1.0, 7.0, 4.0, 5.0, 8.0, 4.0)
+Output:
+	indifferent
+ExpectedOutput:
+	indifferent</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test4 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(2.0, 1.0, 3.0, 1.0, 4.0, 6.0)	b:	(7.0, 4.0, 8.0, 5.0, 9.0, 7.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test5 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(8.0, 2.0, 4.0, 2.0, 9.0, 2.0)	b:	(9.0, 5.0, 9.0, 1.0, 2.0, 8.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test6 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(5.0, 5.0, 7.0, 9.0, 7.0, 6.0)	b:	(5.0, 9.0, 3.0, 9.0, 6.0, 9.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test7 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(7.0, 4.0, 4.0, 1.0, 7.0, 3.0)	b:	(8.0, 1.0, 6.0, 7.0, 4.0, 3.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test8 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(6.0, 6.0, 4.0, 5.0, 5.0, 8.0)	b:	(0.0, 0.0, 6.0, 8.0, 3.0, 5.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test9 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(6.0, 4.0, 4.0, 3.0, 1.0, 7.0)	b:	(0.0, 3.0, 3.0, 4.0, 0.0, 2.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test10 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(3.0, 9.0, 3.0, 5.0, 2.0, 8.0)	b:	(3.0, 1.0, 9.0, 3.0, 9.0, 5.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test11 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(4.0, 6.0, 10.0, 4.0, 5.0, 4.0)	b:	(7.0, 8.0, 0.0, 2.0, 1.0, 5.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test12 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(9.0, 3.0, 2.0, 5.0, 2.0, 1.0)	b:	(4.0, 9.0, 8.0, 4.0, 5.0, 5.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test13 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(10.0, 9.0, 3.0, 9.0, 4.0, 4.0)	b:	(6.0, 4.0, 9.0, 2.0, 4.0, 2.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test14 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(6.0, 3.0, 2.0, 5.0, 6.0, 2.0)	b:	(1.0, 9.0, 4.0, 7.0, 7.0, 2.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test15 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(3.0, 1.0, 6.0, 5.0, 1.0, 0.0)	b:	(9.0, 7.0, 5.0, 9.0, 4.0, 6.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test16 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(7.0, 3.0, 10.0, 6.0, 2.0, 3.0)	b:	(1.0, 1.0, 5.0, 1.0, 1.0, 6.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test17 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(4.0, 3.0, 8.0, 7.0, 4.0, 0.0)	b:	(2.0, 7.0, 2.0, 7.0, 7.0, 8.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test18 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(9.0, 3.0, 6.0, 1.0, 9.0, 2.0)	b:	(8.0, 8.0, 1.0, 6.0, 2.0, 2.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test19 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(6.0, 6.0, 4.0, 8.0, 9.0, 9.0)	b:	(1.0, 2.0, 7.0, 9.0, 1.0, 4.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test20 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(4.0, 8.0, 4.0, 10.0, 9.0, 1.0)	b:	(7.0, 8.0, 8.0, 6.0, 9.0, 7.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test21 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(9.0, 6.0, 8.0, 8.0, 7.0, 9.0)	b:	(3.0, 8.0, 2.0, 4.0, 5.0, 7.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test22 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(8.0, 1.0, 0.0, 9.0, 3.0, 10.0)	b:	(4.0, 4.0, 1.0, 9.0, 7.0, 5.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test23 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(8.0, 7.0, 6.0, 4.0, 9.0, 0.0)	b:	(8.0, 7.0, 6.0, 4.0, 9.0, 0.0)
+Output:
+	indifferent
+ExpectedOutput:
+	indifferent</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test24 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(2.0, 6.0, 8.0, 8.0, 4.0, 7.0)	b:	(2.0, 6.0, 8.0, 8.0, 4.0, 7.0)
+Output:
+	indifferent
+ExpectedOutput:
+	indifferent</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test25 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(5.0, 9.0, 3.0, 9.0, 8.0, 9.0)	b:	(5.0, 5.0, 3.0, 3.0, 3.0, 4.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test26 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(2.0, 4.0, 8.0, 5.0, 5.0, 7.0)	b:	(2.0, 4.0, 1.0, 6.0, 1.0, 6.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test27 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(10.0, 1.0, 6.0, 7.0, 7.0, 7.0)	b:	(10.0, 1.0, 6.0, 7.0, 7.0, 7.0)
+Output:
+	indifferent
+ExpectedOutput:
+	indifferent</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test28 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(10.0, 1.0, 3.0, 5.0, 5.0, 6.0)	b:	(3.0, 6.0, 5.0, 2.0, 1.0, 0.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test29 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(7.0, 4.0, 4.0, 7.0, 9.0, 5.0)	b:	(4.0, 3.0, 2.0, 4.0, 2.0, 8.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test30 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(3.0, 9.0, 10.0, 2.0, 6.0, 6.0)	b:	(8.0, 9.0, 7.0, 8.0, 5.0, 5.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test31 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(5.0, 5.0, 7.0, 5.0, 4.0, 3.0)	b:	(1.0, 5.0, 3.0, 7.0, 0.0, 5.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test32 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(7.0, 7.0, 5.0, 1.0, 4.0, 6.0)	b:	(6.0, 3.0, 2.0, 3.0, 0.0, 9.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test33 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(6.0, 5.0, 8.0, 5.0, 1.0, 2.0)	b:	(5.0, 9.0, 9.0, 4.0, 6.0, 2.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test34 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(6.0, 3.0, 7.0, 1.0, 0.0, 4.0)	b:	(3.0, 6.0, 7.0, 4.0, 4.0, 8.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test35 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(1.0, 4.0, 4.0, 3.0, 7.0, 5.0)	b:	(10.0, 2.0, 10.0, 1.0, 10.0, 2.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test36 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(5.0, 4.0, 2.0, 5.0, 5.0, 10.0)	b:	(2.0, 2.0, 4.0, 1.0, 10.0, 4.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test37 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(1.0, 9.0, 5.0, 4.0, 2.0, 6.0)	b:	(8.0, 2.0, 8.0, 5.0, 9.0, 9.0)
+Output:
+	first_preferred
+ExpectedOutput:
+	first_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test38 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(10.0, 6.0, 8.0, 8.0, 4.0, 4.0)	b:	(1.0, 10.0, 1.0, 2.0, 7.0, 2.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> Test39 </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Input:
+a:	(8.0, 9.0, 4.0, 3.0, 8.0, 4.0)	b:	(5.0, 6.0, 4.0, 2.0, 0.0, 9.0)
+Output:
+	second_preferred
+ExpectedOutput:
+	second_preferred</pre>
+               </div>
+
+            </div>  
+            
+            <div class="textnode report-text-node"> 
+
+                <span class="textid report-text-node-id"> ResultsInfo </span> 
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">You got 40/40 correct results!</pre>
+               </div>
+
+            </div>  
+            </div>
+</section> 
+</div> 
+
+ 
+<pre style="display:none">- Exercise1 (Node)
+  - Test0 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test1 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test2 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test3 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test4 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test5 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test6 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test7 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test8 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test9 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test10 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test11 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test12 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test13 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test14 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test15 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test16 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test17 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test18 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test19 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test20 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test21 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test22 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test23 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test24 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test25 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test26 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test27 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test28 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test29 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test30 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test31 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test32 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test33 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test34 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test35 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test36 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test37 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test38 (<class 'reprep.datanode.DataNode'> text/plain)
+  - Test39 (<class 'reprep.datanode.DataNode'> text/plain)
+  - ResultsInfo (<class 'reprep.datanode.DataNode'> text/plain)
+</pre>
+
+</body>
+</html>

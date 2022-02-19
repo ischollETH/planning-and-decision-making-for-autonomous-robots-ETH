@@ -1,0 +1,72 @@
+parmake_sub_00: started pmake_worker()
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('_dynreports_create_index', <compmake.context.Context object at 0x7f42298943a0>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': {'exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-DepthFirst6-exercise2_report-write', 'exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-DepthFirst6-BreadthFirst7-exercise2_report-write', 'exercise2-DepthFirst0-BreadthFirst1-exercise2_report-write', 'exercise2-DepthFirst0-exercise2_report-write', 'exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-exercise2_report-write', 'exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-exercise2_report-write', 'exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-exercise2_report-write', 'exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-DepthFirst6-BreadthFirst7-IterativeDeepening8-exercise2_report-write', 'exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-exercise2_report-write'}, 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-algo_placeholder', <compmake.context.Context object at 0x7f425e426fa0>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-exercise2_report', <compmake.context.Context object at 0x7f4229894430>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-exercise2_report-write', <compmake.context.Context object at 0x7f425e426d00>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-DepthFirst6-BreadthFirst7-IterativeDeepening8-exercise2_report-write', <compmake.context.Context object at 0x7f4229894310>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-DepthFirst6-BreadthFirst7-exercise2_report-write', <compmake.context.Context object at 0x7f425e78de50>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-exercise2_report-write', <compmake.context.Context object at 0x7f425e4b8be0>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-exercise2_report-write', <compmake.context.Context object at 0x7f423e0354c0>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-BreadthFirst4-IterativeDeepening5-DepthFirst6-exercise2_report-write', <compmake.context.Context object at 0x7f425e4895b0>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-BreadthFirst1-IterativeDeepening2-DepthFirst3-exercise2_report-write', <compmake.context.Context object at 0x7f425d3df1c0>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: Received EXIT_TOKEN.
+parmake_sub_00: saving coverage
+parmake_sub_00: saved coverage
+parmake_sub_00: clean exit.

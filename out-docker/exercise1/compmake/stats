@@ -1,0 +1,2 @@
+#!/bin/bash
+compmake /out-docker/exercise1/compmake -c "stats $*"

@@ -1,0 +1,2 @@
+#!/bin/bash
+compmake /out-docker/exercise4/compmake -c "clean $*"

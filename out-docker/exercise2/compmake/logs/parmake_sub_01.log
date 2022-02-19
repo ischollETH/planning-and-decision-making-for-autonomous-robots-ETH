@@ -1,0 +1,32 @@
+parmake_sub_01: started pmake_worker()
+parmake_sub_01: Listening for job
+parmake_sub_01: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-algo_placeholder', <compmake.context.Context object at 0x7f4229894a00>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_01: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_01: putting result in result_queue..
+parmake_sub_01: (done)
+parmake_sub_01: ...done.
+parmake_sub_01: Listening for job
+parmake_sub_01: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-exercise2_report', <compmake.context.Context object at 0x7f425e7959a0>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_01: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_01: putting result in result_queue..
+parmake_sub_01: (done)
+parmake_sub_01: ...done.
+parmake_sub_01: Listening for job
+parmake_sub_01: got job: (<function parmake_job2 at 0x7f42614b2af0>, ('exercise2-DepthFirst0-exercise2_report-write', <compmake.context.Context object at 0x7f4229894a60>, 'q-139922141583296-9498', True, '/out-docker/exercise2/compmake/parmake_job2_logs'))
+parmake_sub_01: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_01: putting result in result_queue..
+parmake_sub_01: (done)
+parmake_sub_01: ...done.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Could not receive anything.
+parmake_sub_01: Listening for job
+parmake_sub_01: Received EXIT_TOKEN.
+parmake_sub_01: saving coverage
+parmake_sub_01: saved coverage
+parmake_sub_01: clean exit.

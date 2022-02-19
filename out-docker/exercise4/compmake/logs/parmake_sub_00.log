@@ -1,0 +1,242 @@
+parmake_sub_00: started pmake_worker()
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f4b72db8af0>, ('_dynreports_create_index', <compmake.context.Context object at 0x7f4b3b1929a0>, 'q-139961091074896-8906', True, '/out-docker/exercise4/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': {'exercise4-ValueIteration0-PolicyIteration1-exercise4_report-write', 'exercise4-ValueIteration0-exercise4_report-write'}, 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: got job: (<function parmake_job2 at 0x7f4b72db8af0>, ('exercise4-ValueIteration0-exercise4_report-write', <compmake.context.Context object at 0x7f4b6fcb7880>, 'q-139961091074896-8906', True, '/out-docker/exercise4/compmake/parmake_job2_logs'))
+parmake_sub_00: result: {'user_object': None, 'user_object_deps': set(), 'new_jobs': [], 'deleted_jobs': set()}
+parmake_sub_00: putting result in result_queue..
+parmake_sub_00: (done)
+parmake_sub_00: ...done.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Could not receive anything.
+parmake_sub_00: Listening for job
+parmake_sub_00: Received EXIT_TOKEN.
+parmake_sub_00: saving coverage
+parmake_sub_00: saved coverage
+parmake_sub_00: clean exit.

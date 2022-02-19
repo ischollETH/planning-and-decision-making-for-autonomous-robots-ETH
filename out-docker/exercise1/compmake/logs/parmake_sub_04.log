@@ -1,0 +1,6 @@
+parmake_sub_04: started pmake_worker()
+parmake_sub_04: Listening for job
+parmake_sub_04: Received EXIT_TOKEN.
+parmake_sub_04: saving coverage
+parmake_sub_04: saved coverage
+parmake_sub_04: clean exit.

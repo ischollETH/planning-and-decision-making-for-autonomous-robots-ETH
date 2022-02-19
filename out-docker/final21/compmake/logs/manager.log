@@ -1,0 +1,2872 @@
+add_targets()
+ -         targets: ['_dynreports_create_index', 'final21-dynamic_environment0-ex_final21_report']
+computed todo
+ -       not_ready: ['final21-dynamic_environment0-ex_final21_report']
+ -      ready_todo: ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+ -    targets_done: []
+ - targets_todo_plus_deps: ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report']
+targets_todo_plus_deps: ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report']
+add_targets():adding to todo
+ -            todo: ['final21-dynamic_environment0-ex_final21_report']
+ -        todo_add: ['final21-dynamic_environment0-ex_final21_report']
+add_targets():adding to ready
+ -           ready: []
+ -       ready_add: ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+after add_targets()
+ -            done: []
+ -      processing: []
+ -      ready_todo: ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+ -            todo: ['final21-dynamic_environment0-ex_final21_report']
+0: -  all_targets: 3
+0: -      blocked: 0
+0: -      deleted: 0
+0: -         done: 0
+0: -       failed: 0
+0: -   processing: 0
+0: -        ready: 2
+0: -         todo: 1
+0: 
+0:  In more details:
+0: -  all_targets: 3 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report']
+0: -      blocked: -
+0: -      deleted: -
+0: -         done: -
+0: -       failed: -
+0: -   processing: -
+0: -        ready: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+0: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report']
+chosen next_job
+ -          job_id: _dynreports_create_index
+start_job
+ -          job_id: _dynreports_create_index
+chosen next_job
+ -          job_id: final21-dynamic_environment0-algo_placeholder
+start_job
+ -          job_id: final21-dynamic_environment0-algo_placeholder
+check_job_finished
+ -          job_id: _dynreports_create_index
+check_job_finished
+ -          job_id: final21-dynamic_environment0-algo_placeholder
+check_job_finished
+ -          job_id: _dynreports_create_index
+job_succeeded
+ -          job_id: _dynreports_create_index
+considering parents
+ -    parents_todo: []
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: _dynreports_create_index
+ -        new_jobs: ['final21-dynamic_environment0-ex_final21_report-write']
+ - user_object_deps: []
+add_targets()
+ -         targets: ['final21-dynamic_environment0-ex_final21_report-write']
+computed todo
+ -       not_ready: ['final21-dynamic_environment0-ex_final21_report-write']
+ -      ready_todo: ['final21-dynamic_environment0-ex_final21_report']
+ -    targets_done: ['final21-dynamic_environment0-algo_placeholder']
+ - targets_todo_plus_deps: ['final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+targets_todo_plus_deps: ['final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+add_targets():adding to todo
+ -            todo: ['final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+ -        todo_add: ['final21-dynamic_environment0-ex_final21_report-write']
+add_targets():adding to ready
+ -           ready: []
+ -       ready_add: ['final21-dynamic_environment0-ex_final21_report']
+after add_targets()
+ -            done: ['_dynreports_create_index']
+ -      processing: ['final21-dynamic_environment0-algo_placeholder']
+ -      ready_todo: ['final21-dynamic_environment0-ex_final21_report']
+ -            todo: ['final21-dynamic_environment0-ex_final21_report-write']
+1: -  all_targets: 4
+1: -      blocked: 0
+1: -      deleted: 0
+1: -         done: 1
+1: -       failed: 0
+1: -   processing: 1
+1: -        ready: 1
+1: -         todo: 1
+1: 
+1:  In more details:
+1: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+1: -      blocked: -
+1: -      deleted: -
+1: -         done: 1 ['_dynreports_create_index']
+1: -       failed: -
+1: -   processing: 1 ['final21-dynamic_environment0-algo_placeholder']
+1: -        ready: 1 ['final21-dynamic_environment0-ex_final21_report']
+1: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+chosen next_job
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+start_job
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-algo_placeholder
+job_succeeded
+ -          job_id: final21-dynamic_environment0-algo_placeholder
+considering parents
+ -    parents_todo: []
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: final21-dynamic_environment0-algo_placeholder
+ -        new_jobs: []
+ - user_object_deps: []
+2: -  all_targets: 4
+2: -      blocked: 0
+2: -      deleted: 0
+2: -         done: 2
+2: -       failed: 0
+2: -   processing: 1
+2: -        ready: 0
+2: -         todo: 1
+2: 
+2:  In more details:
+2: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+2: -      blocked: -
+2: -      deleted: -
+2: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+2: -       failed: -
+2: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+2: -        ready: -
+2: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+3: -  all_targets: 4
+3: -      blocked: 0
+3: -      deleted: 0
+3: -         done: 2
+3: -       failed: 0
+3: -   processing: 1
+3: -        ready: 0
+3: -         todo: 1
+3: 
+3:  In more details:
+3: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+3: -      blocked: -
+3: -      deleted: -
+3: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+3: -       failed: -
+3: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+3: -        ready: -
+3: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+4: -  all_targets: 4
+4: -      blocked: 0
+4: -      deleted: 0
+4: -         done: 2
+4: -       failed: 0
+4: -   processing: 1
+4: -        ready: 0
+4: -         todo: 1
+4: 
+4:  In more details:
+4: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+4: -      blocked: -
+4: -      deleted: -
+4: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+4: -       failed: -
+4: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+4: -        ready: -
+4: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+5: -  all_targets: 4
+5: -      blocked: 0
+5: -      deleted: 0
+5: -         done: 2
+5: -       failed: 0
+5: -   processing: 1
+5: -        ready: 0
+5: -         todo: 1
+5: 
+5:  In more details:
+5: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+5: -      blocked: -
+5: -      deleted: -
+5: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+5: -       failed: -
+5: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+5: -        ready: -
+5: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+6: -  all_targets: 4
+6: -      blocked: 0
+6: -      deleted: 0
+6: -         done: 2
+6: -       failed: 0
+6: -   processing: 1
+6: -        ready: 0
+6: -         todo: 1
+6: 
+6:  In more details:
+6: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+6: -      blocked: -
+6: -      deleted: -
+6: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+6: -       failed: -
+6: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+6: -        ready: -
+6: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+7: -  all_targets: 4
+7: -      blocked: 0
+7: -      deleted: 0
+7: -         done: 2
+7: -       failed: 0
+7: -   processing: 1
+7: -        ready: 0
+7: -         todo: 1
+7: 
+7:  In more details:
+7: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+7: -      blocked: -
+7: -      deleted: -
+7: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+7: -       failed: -
+7: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+7: -        ready: -
+7: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+8: -  all_targets: 4
+8: -      blocked: 0
+8: -      deleted: 0
+8: -         done: 2
+8: -       failed: 0
+8: -   processing: 1
+8: -        ready: 0
+8: -         todo: 1
+8: 
+8:  In more details:
+8: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+8: -      blocked: -
+8: -      deleted: -
+8: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+8: -       failed: -
+8: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+8: -        ready: -
+8: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+9: -  all_targets: 4
+9: -      blocked: 0
+9: -      deleted: 0
+9: -         done: 2
+9: -       failed: 0
+9: -   processing: 1
+9: -        ready: 0
+9: -         todo: 1
+9: 
+9:  In more details:
+9: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+9: -      blocked: -
+9: -      deleted: -
+9: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+9: -       failed: -
+9: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+9: -        ready: -
+9: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+10: -  all_targets: 4
+10: -      blocked: 0
+10: -      deleted: 0
+10: -         done: 2
+10: -       failed: 0
+10: -   processing: 1
+10: -        ready: 0
+10: -         todo: 1
+10: 
+10:  In more details:
+10: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+10: -      blocked: -
+10: -      deleted: -
+10: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+10: -       failed: -
+10: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+10: -        ready: -
+10: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+11: -  all_targets: 4
+11: -      blocked: 0
+11: -      deleted: 0
+11: -         done: 2
+11: -       failed: 0
+11: -   processing: 1
+11: -        ready: 0
+11: -         todo: 1
+11: 
+11:  In more details:
+11: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+11: -      blocked: -
+11: -      deleted: -
+11: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+11: -       failed: -
+11: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+11: -        ready: -
+11: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+12: -  all_targets: 4
+12: -      blocked: 0
+12: -      deleted: 0
+12: -         done: 2
+12: -       failed: 0
+12: -   processing: 1
+12: -        ready: 0
+12: -         todo: 1
+12: 
+12:  In more details:
+12: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+12: -      blocked: -
+12: -      deleted: -
+12: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+12: -       failed: -
+12: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+12: -        ready: -
+12: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+13: -  all_targets: 4
+13: -      blocked: 0
+13: -      deleted: 0
+13: -         done: 2
+13: -       failed: 0
+13: -   processing: 1
+13: -        ready: 0
+13: -         todo: 1
+13: 
+13:  In more details:
+13: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+13: -      blocked: -
+13: -      deleted: -
+13: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+13: -       failed: -
+13: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+13: -        ready: -
+13: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+14: -  all_targets: 4
+14: -      blocked: 0
+14: -      deleted: 0
+14: -         done: 2
+14: -       failed: 0
+14: -   processing: 1
+14: -        ready: 0
+14: -         todo: 1
+14: 
+14:  In more details:
+14: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+14: -      blocked: -
+14: -      deleted: -
+14: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+14: -       failed: -
+14: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+14: -        ready: -
+14: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+15: -  all_targets: 4
+15: -      blocked: 0
+15: -      deleted: 0
+15: -         done: 2
+15: -       failed: 0
+15: -   processing: 1
+15: -        ready: 0
+15: -         todo: 1
+15: 
+15:  In more details:
+15: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+15: -      blocked: -
+15: -      deleted: -
+15: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+15: -       failed: -
+15: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+15: -        ready: -
+15: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+16: -  all_targets: 4
+16: -      blocked: 0
+16: -      deleted: 0
+16: -         done: 2
+16: -       failed: 0
+16: -   processing: 1
+16: -        ready: 0
+16: -         todo: 1
+16: 
+16:  In more details:
+16: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+16: -      blocked: -
+16: -      deleted: -
+16: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+16: -       failed: -
+16: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+16: -        ready: -
+16: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+17: -  all_targets: 4
+17: -      blocked: 0
+17: -      deleted: 0
+17: -         done: 2
+17: -       failed: 0
+17: -   processing: 1
+17: -        ready: 0
+17: -         todo: 1
+17: 
+17:  In more details:
+17: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+17: -      blocked: -
+17: -      deleted: -
+17: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+17: -       failed: -
+17: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+17: -        ready: -
+17: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+18: -  all_targets: 4
+18: -      blocked: 0
+18: -      deleted: 0
+18: -         done: 2
+18: -       failed: 0
+18: -   processing: 1
+18: -        ready: 0
+18: -         todo: 1
+18: 
+18:  In more details:
+18: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+18: -      blocked: -
+18: -      deleted: -
+18: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+18: -       failed: -
+18: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+18: -        ready: -
+18: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+19: -  all_targets: 4
+19: -      blocked: 0
+19: -      deleted: 0
+19: -         done: 2
+19: -       failed: 0
+19: -   processing: 1
+19: -        ready: 0
+19: -         todo: 1
+19: 
+19:  In more details:
+19: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+19: -      blocked: -
+19: -      deleted: -
+19: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+19: -       failed: -
+19: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+19: -        ready: -
+19: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+20: -  all_targets: 4
+20: -      blocked: 0
+20: -      deleted: 0
+20: -         done: 2
+20: -       failed: 0
+20: -   processing: 1
+20: -        ready: 0
+20: -         todo: 1
+20: 
+20:  In more details:
+20: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+20: -      blocked: -
+20: -      deleted: -
+20: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+20: -       failed: -
+20: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+20: -        ready: -
+20: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+21: -  all_targets: 4
+21: -      blocked: 0
+21: -      deleted: 0
+21: -         done: 2
+21: -       failed: 0
+21: -   processing: 1
+21: -        ready: 0
+21: -         todo: 1
+21: 
+21:  In more details:
+21: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+21: -      blocked: -
+21: -      deleted: -
+21: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+21: -       failed: -
+21: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+21: -        ready: -
+21: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+22: -  all_targets: 4
+22: -      blocked: 0
+22: -      deleted: 0
+22: -         done: 2
+22: -       failed: 0
+22: -   processing: 1
+22: -        ready: 0
+22: -         todo: 1
+22: 
+22:  In more details:
+22: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+22: -      blocked: -
+22: -      deleted: -
+22: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+22: -       failed: -
+22: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+22: -        ready: -
+22: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+23: -  all_targets: 4
+23: -      blocked: 0
+23: -      deleted: 0
+23: -         done: 2
+23: -       failed: 0
+23: -   processing: 1
+23: -        ready: 0
+23: -         todo: 1
+23: 
+23:  In more details:
+23: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+23: -      blocked: -
+23: -      deleted: -
+23: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+23: -       failed: -
+23: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+23: -        ready: -
+23: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+24: -  all_targets: 4
+24: -      blocked: 0
+24: -      deleted: 0
+24: -         done: 2
+24: -       failed: 0
+24: -   processing: 1
+24: -        ready: 0
+24: -         todo: 1
+24: 
+24:  In more details:
+24: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+24: -      blocked: -
+24: -      deleted: -
+24: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+24: -       failed: -
+24: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+24: -        ready: -
+24: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+25: -  all_targets: 4
+25: -      blocked: 0
+25: -      deleted: 0
+25: -         done: 2
+25: -       failed: 0
+25: -   processing: 1
+25: -        ready: 0
+25: -         todo: 1
+25: 
+25:  In more details:
+25: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+25: -      blocked: -
+25: -      deleted: -
+25: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+25: -       failed: -
+25: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+25: -        ready: -
+25: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+26: -  all_targets: 4
+26: -      blocked: 0
+26: -      deleted: 0
+26: -         done: 2
+26: -       failed: 0
+26: -   processing: 1
+26: -        ready: 0
+26: -         todo: 1
+26: 
+26:  In more details:
+26: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+26: -      blocked: -
+26: -      deleted: -
+26: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+26: -       failed: -
+26: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+26: -        ready: -
+26: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+27: -  all_targets: 4
+27: -      blocked: 0
+27: -      deleted: 0
+27: -         done: 2
+27: -       failed: 0
+27: -   processing: 1
+27: -        ready: 0
+27: -         todo: 1
+27: 
+27:  In more details:
+27: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+27: -      blocked: -
+27: -      deleted: -
+27: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+27: -       failed: -
+27: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+27: -        ready: -
+27: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+28: -  all_targets: 4
+28: -      blocked: 0
+28: -      deleted: 0
+28: -         done: 2
+28: -       failed: 0
+28: -   processing: 1
+28: -        ready: 0
+28: -         todo: 1
+28: 
+28:  In more details:
+28: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+28: -      blocked: -
+28: -      deleted: -
+28: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+28: -       failed: -
+28: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+28: -        ready: -
+28: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+29: -  all_targets: 4
+29: -      blocked: 0
+29: -      deleted: 0
+29: -         done: 2
+29: -       failed: 0
+29: -   processing: 1
+29: -        ready: 0
+29: -         todo: 1
+29: 
+29:  In more details:
+29: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+29: -      blocked: -
+29: -      deleted: -
+29: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+29: -       failed: -
+29: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+29: -        ready: -
+29: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+30: -  all_targets: 4
+30: -      blocked: 0
+30: -      deleted: 0
+30: -         done: 2
+30: -       failed: 0
+30: -   processing: 1
+30: -        ready: 0
+30: -         todo: 1
+30: 
+30:  In more details:
+30: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+30: -      blocked: -
+30: -      deleted: -
+30: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+30: -       failed: -
+30: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+30: -        ready: -
+30: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+31: -  all_targets: 4
+31: -      blocked: 0
+31: -      deleted: 0
+31: -         done: 2
+31: -       failed: 0
+31: -   processing: 1
+31: -        ready: 0
+31: -         todo: 1
+31: 
+31:  In more details:
+31: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+31: -      blocked: -
+31: -      deleted: -
+31: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+31: -       failed: -
+31: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+31: -        ready: -
+31: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+32: -  all_targets: 4
+32: -      blocked: 0
+32: -      deleted: 0
+32: -         done: 2
+32: -       failed: 0
+32: -   processing: 1
+32: -        ready: 0
+32: -         todo: 1
+32: 
+32:  In more details:
+32: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+32: -      blocked: -
+32: -      deleted: -
+32: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+32: -       failed: -
+32: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+32: -        ready: -
+32: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+33: -  all_targets: 4
+33: -      blocked: 0
+33: -      deleted: 0
+33: -         done: 2
+33: -       failed: 0
+33: -   processing: 1
+33: -        ready: 0
+33: -         todo: 1
+33: 
+33:  In more details:
+33: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+33: -      blocked: -
+33: -      deleted: -
+33: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+33: -       failed: -
+33: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+33: -        ready: -
+33: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+34: -  all_targets: 4
+34: -      blocked: 0
+34: -      deleted: 0
+34: -         done: 2
+34: -       failed: 0
+34: -   processing: 1
+34: -        ready: 0
+34: -         todo: 1
+34: 
+34:  In more details:
+34: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+34: -      blocked: -
+34: -      deleted: -
+34: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+34: -       failed: -
+34: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+34: -        ready: -
+34: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+35: -  all_targets: 4
+35: -      blocked: 0
+35: -      deleted: 0
+35: -         done: 2
+35: -       failed: 0
+35: -   processing: 1
+35: -        ready: 0
+35: -         todo: 1
+35: 
+35:  In more details:
+35: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+35: -      blocked: -
+35: -      deleted: -
+35: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+35: -       failed: -
+35: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+35: -        ready: -
+35: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+36: -  all_targets: 4
+36: -      blocked: 0
+36: -      deleted: 0
+36: -         done: 2
+36: -       failed: 0
+36: -   processing: 1
+36: -        ready: 0
+36: -         todo: 1
+36: 
+36:  In more details:
+36: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+36: -      blocked: -
+36: -      deleted: -
+36: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+36: -       failed: -
+36: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+36: -        ready: -
+36: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+37: -  all_targets: 4
+37: -      blocked: 0
+37: -      deleted: 0
+37: -         done: 2
+37: -       failed: 0
+37: -   processing: 1
+37: -        ready: 0
+37: -         todo: 1
+37: 
+37:  In more details:
+37: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+37: -      blocked: -
+37: -      deleted: -
+37: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+37: -       failed: -
+37: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+37: -        ready: -
+37: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+38: -  all_targets: 4
+38: -      blocked: 0
+38: -      deleted: 0
+38: -         done: 2
+38: -       failed: 0
+38: -   processing: 1
+38: -        ready: 0
+38: -         todo: 1
+38: 
+38:  In more details:
+38: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+38: -      blocked: -
+38: -      deleted: -
+38: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+38: -       failed: -
+38: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+38: -        ready: -
+38: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+39: -  all_targets: 4
+39: -      blocked: 0
+39: -      deleted: 0
+39: -         done: 2
+39: -       failed: 0
+39: -   processing: 1
+39: -        ready: 0
+39: -         todo: 1
+39: 
+39:  In more details:
+39: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+39: -      blocked: -
+39: -      deleted: -
+39: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+39: -       failed: -
+39: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+39: -        ready: -
+39: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+40: -  all_targets: 4
+40: -      blocked: 0
+40: -      deleted: 0
+40: -         done: 2
+40: -       failed: 0
+40: -   processing: 1
+40: -        ready: 0
+40: -         todo: 1
+40: 
+40:  In more details:
+40: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+40: -      blocked: -
+40: -      deleted: -
+40: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+40: -       failed: -
+40: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+40: -        ready: -
+40: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+41: -  all_targets: 4
+41: -      blocked: 0
+41: -      deleted: 0
+41: -         done: 2
+41: -       failed: 0
+41: -   processing: 1
+41: -        ready: 0
+41: -         todo: 1
+41: 
+41:  In more details:
+41: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+41: -      blocked: -
+41: -      deleted: -
+41: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+41: -       failed: -
+41: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+41: -        ready: -
+41: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+42: -  all_targets: 4
+42: -      blocked: 0
+42: -      deleted: 0
+42: -         done: 2
+42: -       failed: 0
+42: -   processing: 1
+42: -        ready: 0
+42: -         todo: 1
+42: 
+42:  In more details:
+42: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+42: -      blocked: -
+42: -      deleted: -
+42: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+42: -       failed: -
+42: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+42: -        ready: -
+42: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+43: -  all_targets: 4
+43: -      blocked: 0
+43: -      deleted: 0
+43: -         done: 2
+43: -       failed: 0
+43: -   processing: 1
+43: -        ready: 0
+43: -         todo: 1
+43: 
+43:  In more details:
+43: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+43: -      blocked: -
+43: -      deleted: -
+43: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+43: -       failed: -
+43: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+43: -        ready: -
+43: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+44: -  all_targets: 4
+44: -      blocked: 0
+44: -      deleted: 0
+44: -         done: 2
+44: -       failed: 0
+44: -   processing: 1
+44: -        ready: 0
+44: -         todo: 1
+44: 
+44:  In more details:
+44: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+44: -      blocked: -
+44: -      deleted: -
+44: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+44: -       failed: -
+44: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+44: -        ready: -
+44: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+45: -  all_targets: 4
+45: -      blocked: 0
+45: -      deleted: 0
+45: -         done: 2
+45: -       failed: 0
+45: -   processing: 1
+45: -        ready: 0
+45: -         todo: 1
+45: 
+45:  In more details:
+45: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+45: -      blocked: -
+45: -      deleted: -
+45: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+45: -       failed: -
+45: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+45: -        ready: -
+45: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+46: -  all_targets: 4
+46: -      blocked: 0
+46: -      deleted: 0
+46: -         done: 2
+46: -       failed: 0
+46: -   processing: 1
+46: -        ready: 0
+46: -         todo: 1
+46: 
+46:  In more details:
+46: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+46: -      blocked: -
+46: -      deleted: -
+46: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+46: -       failed: -
+46: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+46: -        ready: -
+46: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+47: -  all_targets: 4
+47: -      blocked: 0
+47: -      deleted: 0
+47: -         done: 2
+47: -       failed: 0
+47: -   processing: 1
+47: -        ready: 0
+47: -         todo: 1
+47: 
+47:  In more details:
+47: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+47: -      blocked: -
+47: -      deleted: -
+47: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+47: -       failed: -
+47: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+47: -        ready: -
+47: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+48: -  all_targets: 4
+48: -      blocked: 0
+48: -      deleted: 0
+48: -         done: 2
+48: -       failed: 0
+48: -   processing: 1
+48: -        ready: 0
+48: -         todo: 1
+48: 
+48:  In more details:
+48: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+48: -      blocked: -
+48: -      deleted: -
+48: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+48: -       failed: -
+48: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+48: -        ready: -
+48: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+49: -  all_targets: 4
+49: -      blocked: 0
+49: -      deleted: 0
+49: -         done: 2
+49: -       failed: 0
+49: -   processing: 1
+49: -        ready: 0
+49: -         todo: 1
+49: 
+49:  In more details:
+49: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+49: -      blocked: -
+49: -      deleted: -
+49: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+49: -       failed: -
+49: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+49: -        ready: -
+49: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+50: -  all_targets: 4
+50: -      blocked: 0
+50: -      deleted: 0
+50: -         done: 2
+50: -       failed: 0
+50: -   processing: 1
+50: -        ready: 0
+50: -         todo: 1
+50: 
+50:  In more details:
+50: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+50: -      blocked: -
+50: -      deleted: -
+50: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+50: -       failed: -
+50: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+50: -        ready: -
+50: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+51: -  all_targets: 4
+51: -      blocked: 0
+51: -      deleted: 0
+51: -         done: 2
+51: -       failed: 0
+51: -   processing: 1
+51: -        ready: 0
+51: -         todo: 1
+51: 
+51:  In more details:
+51: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+51: -      blocked: -
+51: -      deleted: -
+51: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+51: -       failed: -
+51: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+51: -        ready: -
+51: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+52: -  all_targets: 4
+52: -      blocked: 0
+52: -      deleted: 0
+52: -         done: 2
+52: -       failed: 0
+52: -   processing: 1
+52: -        ready: 0
+52: -         todo: 1
+52: 
+52:  In more details:
+52: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+52: -      blocked: -
+52: -      deleted: -
+52: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+52: -       failed: -
+52: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+52: -        ready: -
+52: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+53: -  all_targets: 4
+53: -      blocked: 0
+53: -      deleted: 0
+53: -         done: 2
+53: -       failed: 0
+53: -   processing: 1
+53: -        ready: 0
+53: -         todo: 1
+53: 
+53:  In more details:
+53: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+53: -      blocked: -
+53: -      deleted: -
+53: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+53: -       failed: -
+53: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+53: -        ready: -
+53: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+54: -  all_targets: 4
+54: -      blocked: 0
+54: -      deleted: 0
+54: -         done: 2
+54: -       failed: 0
+54: -   processing: 1
+54: -        ready: 0
+54: -         todo: 1
+54: 
+54:  In more details:
+54: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+54: -      blocked: -
+54: -      deleted: -
+54: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+54: -       failed: -
+54: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+54: -        ready: -
+54: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+55: -  all_targets: 4
+55: -      blocked: 0
+55: -      deleted: 0
+55: -         done: 2
+55: -       failed: 0
+55: -   processing: 1
+55: -        ready: 0
+55: -         todo: 1
+55: 
+55:  In more details:
+55: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+55: -      blocked: -
+55: -      deleted: -
+55: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+55: -       failed: -
+55: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+55: -        ready: -
+55: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+56: -  all_targets: 4
+56: -      blocked: 0
+56: -      deleted: 0
+56: -         done: 2
+56: -       failed: 0
+56: -   processing: 1
+56: -        ready: 0
+56: -         todo: 1
+56: 
+56:  In more details:
+56: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+56: -      blocked: -
+56: -      deleted: -
+56: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+56: -       failed: -
+56: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+56: -        ready: -
+56: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+57: -  all_targets: 4
+57: -      blocked: 0
+57: -      deleted: 0
+57: -         done: 2
+57: -       failed: 0
+57: -   processing: 1
+57: -        ready: 0
+57: -         todo: 1
+57: 
+57:  In more details:
+57: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+57: -      blocked: -
+57: -      deleted: -
+57: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+57: -       failed: -
+57: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+57: -        ready: -
+57: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+58: -  all_targets: 4
+58: -      blocked: 0
+58: -      deleted: 0
+58: -         done: 2
+58: -       failed: 0
+58: -   processing: 1
+58: -        ready: 0
+58: -         todo: 1
+58: 
+58:  In more details:
+58: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+58: -      blocked: -
+58: -      deleted: -
+58: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+58: -       failed: -
+58: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+58: -        ready: -
+58: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+59: -  all_targets: 4
+59: -      blocked: 0
+59: -      deleted: 0
+59: -         done: 2
+59: -       failed: 0
+59: -   processing: 1
+59: -        ready: 0
+59: -         todo: 1
+59: 
+59:  In more details:
+59: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+59: -      blocked: -
+59: -      deleted: -
+59: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+59: -       failed: -
+59: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+59: -        ready: -
+59: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+60: -  all_targets: 4
+60: -      blocked: 0
+60: -      deleted: 0
+60: -         done: 2
+60: -       failed: 0
+60: -   processing: 1
+60: -        ready: 0
+60: -         todo: 1
+60: 
+60:  In more details:
+60: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+60: -      blocked: -
+60: -      deleted: -
+60: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+60: -       failed: -
+60: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+60: -        ready: -
+60: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+61: -  all_targets: 4
+61: -      blocked: 0
+61: -      deleted: 0
+61: -         done: 2
+61: -       failed: 0
+61: -   processing: 1
+61: -        ready: 0
+61: -         todo: 1
+61: 
+61:  In more details:
+61: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+61: -      blocked: -
+61: -      deleted: -
+61: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+61: -       failed: -
+61: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+61: -        ready: -
+61: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+62: -  all_targets: 4
+62: -      blocked: 0
+62: -      deleted: 0
+62: -         done: 2
+62: -       failed: 0
+62: -   processing: 1
+62: -        ready: 0
+62: -         todo: 1
+62: 
+62:  In more details:
+62: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+62: -      blocked: -
+62: -      deleted: -
+62: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+62: -       failed: -
+62: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+62: -        ready: -
+62: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+63: -  all_targets: 4
+63: -      blocked: 0
+63: -      deleted: 0
+63: -         done: 2
+63: -       failed: 0
+63: -   processing: 1
+63: -        ready: 0
+63: -         todo: 1
+63: 
+63:  In more details:
+63: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+63: -      blocked: -
+63: -      deleted: -
+63: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+63: -       failed: -
+63: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+63: -        ready: -
+63: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+64: -  all_targets: 4
+64: -      blocked: 0
+64: -      deleted: 0
+64: -         done: 2
+64: -       failed: 0
+64: -   processing: 1
+64: -        ready: 0
+64: -         todo: 1
+64: 
+64:  In more details:
+64: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+64: -      blocked: -
+64: -      deleted: -
+64: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+64: -       failed: -
+64: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+64: -        ready: -
+64: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+65: -  all_targets: 4
+65: -      blocked: 0
+65: -      deleted: 0
+65: -         done: 2
+65: -       failed: 0
+65: -   processing: 1
+65: -        ready: 0
+65: -         todo: 1
+65: 
+65:  In more details:
+65: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+65: -      blocked: -
+65: -      deleted: -
+65: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+65: -       failed: -
+65: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+65: -        ready: -
+65: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+66: -  all_targets: 4
+66: -      blocked: 0
+66: -      deleted: 0
+66: -         done: 2
+66: -       failed: 0
+66: -   processing: 1
+66: -        ready: 0
+66: -         todo: 1
+66: 
+66:  In more details:
+66: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+66: -      blocked: -
+66: -      deleted: -
+66: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+66: -       failed: -
+66: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+66: -        ready: -
+66: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+67: -  all_targets: 4
+67: -      blocked: 0
+67: -      deleted: 0
+67: -         done: 2
+67: -       failed: 0
+67: -   processing: 1
+67: -        ready: 0
+67: -         todo: 1
+67: 
+67:  In more details:
+67: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+67: -      blocked: -
+67: -      deleted: -
+67: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+67: -       failed: -
+67: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+67: -        ready: -
+67: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+68: -  all_targets: 4
+68: -      blocked: 0
+68: -      deleted: 0
+68: -         done: 2
+68: -       failed: 0
+68: -   processing: 1
+68: -        ready: 0
+68: -         todo: 1
+68: 
+68:  In more details:
+68: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+68: -      blocked: -
+68: -      deleted: -
+68: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+68: -       failed: -
+68: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+68: -        ready: -
+68: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+69: -  all_targets: 4
+69: -      blocked: 0
+69: -      deleted: 0
+69: -         done: 2
+69: -       failed: 0
+69: -   processing: 1
+69: -        ready: 0
+69: -         todo: 1
+69: 
+69:  In more details:
+69: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+69: -      blocked: -
+69: -      deleted: -
+69: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+69: -       failed: -
+69: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+69: -        ready: -
+69: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+70: -  all_targets: 4
+70: -      blocked: 0
+70: -      deleted: 0
+70: -         done: 2
+70: -       failed: 0
+70: -   processing: 1
+70: -        ready: 0
+70: -         todo: 1
+70: 
+70:  In more details:
+70: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+70: -      blocked: -
+70: -      deleted: -
+70: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+70: -       failed: -
+70: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+70: -        ready: -
+70: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+71: -  all_targets: 4
+71: -      blocked: 0
+71: -      deleted: 0
+71: -         done: 2
+71: -       failed: 0
+71: -   processing: 1
+71: -        ready: 0
+71: -         todo: 1
+71: 
+71:  In more details:
+71: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+71: -      blocked: -
+71: -      deleted: -
+71: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+71: -       failed: -
+71: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+71: -        ready: -
+71: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+72: -  all_targets: 4
+72: -      blocked: 0
+72: -      deleted: 0
+72: -         done: 2
+72: -       failed: 0
+72: -   processing: 1
+72: -        ready: 0
+72: -         todo: 1
+72: 
+72:  In more details:
+72: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+72: -      blocked: -
+72: -      deleted: -
+72: -         done: 2 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder']
+72: -       failed: -
+72: -   processing: 1 ['final21-dynamic_environment0-ex_final21_report']
+72: -        ready: -
+72: -         todo: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+job_succeeded
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+considering parents
+ -    parents_todo: ['final21-dynamic_environment0-ex_final21_report-write']
+considering opportuniny
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+ -     opportunity: final21-dynamic_environment0-ex_final21_report-write
+parent is ready
+ -     opportunity: final21-dynamic_environment0-ex_final21_report-write
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: final21-dynamic_environment0-ex_final21_report
+ -        new_jobs: []
+ - user_object_deps: []
+73: -  all_targets: 4
+73: -      blocked: 0
+73: -      deleted: 0
+73: -         done: 3
+73: -       failed: 0
+73: -   processing: 0
+73: -        ready: 1
+73: -         todo: 0
+73: 
+73:  In more details:
+73: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+73: -      blocked: -
+73: -      deleted: -
+73: -         done: 3 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report']
+73: -       failed: -
+73: -   processing: -
+73: -        ready: 1 ['final21-dynamic_environment0-ex_final21_report-write']
+73: -         todo: -
+chosen next_job
+ -          job_id: final21-dynamic_environment0-ex_final21_report-write
+start_job
+ -          job_id: final21-dynamic_environment0-ex_final21_report-write
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report-write
+check_job_finished
+ -          job_id: final21-dynamic_environment0-ex_final21_report-write
+job_succeeded
+ -          job_id: final21-dynamic_environment0-ex_final21_report-write
+considering parents
+ -    parents_todo: []
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: final21-dynamic_environment0-ex_final21_report-write
+ -        new_jobs: []
+ - user_object_deps: []
+ending: -  all_targets: 4
+ending: -      blocked: 0
+ending: -      deleted: 0
+ending: -         done: 4
+ending: -       failed: 0
+ending: -   processing: 0
+ending: -        ready: 0
+ending: -         todo: 0
+ending: 
+ending:  In more details:
+ending: -  all_targets: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+ending: -      blocked: -
+ending: -      deleted: -
+ending: -         done: 4 ['_dynreports_create_index', 'final21-dynamic_environment0-algo_placeholder', 'final21-dynamic_environment0-ex_final21_report', 'final21-dynamic_environment0-ex_final21_report-write']
+ending: -       failed: -
+ending: -   processing: -
+ending: -        ready: -
+ending: -         todo: -
+Coverage not detected

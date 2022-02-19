@@ -1,0 +1,209 @@
+add_targets()
+ -         targets: ['_dynreports_create_index', 'exercise1-0-exercise1_report']
+computed todo
+ -       not_ready: ['exercise1-0-exercise1_report']
+ -      ready_todo: ['_dynreports_create_index', 'exercise1-0-wrap_exercise1']
+ -    targets_done: []
+ - targets_todo_plus_deps: ['_dynreports_create_index', 'exercise1-0-exercise1_report', 'exercise1-0-wrap_exercise1']
+targets_todo_plus_deps: ['_dynreports_create_index', 'exercise1-0-exercise1_report', 'exercise1-0-wrap_exercise1']
+add_targets():adding to todo
+ -            todo: ['exercise1-0-exercise1_report']
+ -        todo_add: ['exercise1-0-exercise1_report']
+add_targets():adding to ready
+ -           ready: []
+ -       ready_add: ['_dynreports_create_index', 'exercise1-0-wrap_exercise1']
+after add_targets()
+ -            done: []
+ -      processing: []
+ -      ready_todo: ['_dynreports_create_index', 'exercise1-0-wrap_exercise1']
+ -            todo: ['exercise1-0-exercise1_report']
+0: -  all_targets: 3
+0: -      blocked: 0
+0: -      deleted: 0
+0: -         done: 0
+0: -       failed: 0
+0: -   processing: 0
+0: -        ready: 2
+0: -         todo: 1
+0: 
+0:  In more details:
+0: -  all_targets: 3 ['_dynreports_create_index', 'exercise1-0-exercise1_report', 'exercise1-0-wrap_exercise1']
+0: -      blocked: -
+0: -      deleted: -
+0: -         done: -
+0: -       failed: -
+0: -   processing: -
+0: -        ready: 2 ['_dynreports_create_index', 'exercise1-0-wrap_exercise1']
+0: -         todo: 1 ['exercise1-0-exercise1_report']
+chosen next_job
+ -          job_id: _dynreports_create_index
+start_job
+ -          job_id: _dynreports_create_index
+chosen next_job
+ -          job_id: exercise1-0-wrap_exercise1
+start_job
+ -          job_id: exercise1-0-wrap_exercise1
+check_job_finished
+ -          job_id: exercise1-0-wrap_exercise1
+check_job_finished
+ -          job_id: _dynreports_create_index
+check_job_finished
+ -          job_id: exercise1-0-wrap_exercise1
+job_succeeded
+ -          job_id: exercise1-0-wrap_exercise1
+considering parents
+ -    parents_todo: ['exercise1-0-exercise1_report']
+considering opportuniny
+ -          job_id: exercise1-0-wrap_exercise1
+ -     opportunity: exercise1-0-exercise1_report
+parent is ready
+ -     opportunity: exercise1-0-exercise1_report
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: exercise1-0-wrap_exercise1
+ -        new_jobs: []
+ - user_object_deps: []
+1: -  all_targets: 3
+1: -      blocked: 0
+1: -      deleted: 0
+1: -         done: 1
+1: -       failed: 0
+1: -   processing: 1
+1: -        ready: 1
+1: -         todo: 0
+1: 
+1:  In more details:
+1: -  all_targets: 3 ['_dynreports_create_index', 'exercise1-0-exercise1_report', 'exercise1-0-wrap_exercise1']
+1: -      blocked: -
+1: -      deleted: -
+1: -         done: 1 ['exercise1-0-wrap_exercise1']
+1: -       failed: -
+1: -   processing: 1 ['_dynreports_create_index']
+1: -        ready: 1 ['exercise1-0-exercise1_report']
+1: -         todo: -
+chosen next_job
+ -          job_id: exercise1-0-exercise1_report
+start_job
+ -          job_id: exercise1-0-exercise1_report
+check_job_finished
+ -          job_id: exercise1-0-exercise1_report
+check_job_finished
+ -          job_id: _dynreports_create_index
+job_succeeded
+ -          job_id: _dynreports_create_index
+considering parents
+ -    parents_todo: []
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: _dynreports_create_index
+ -        new_jobs: ['exercise1-0-exercise1_report-write']
+ - user_object_deps: []
+add_targets()
+ -         targets: ['exercise1-0-exercise1_report-write']
+computed todo
+ -       not_ready: ['exercise1-0-exercise1_report-write']
+ -      ready_todo: ['exercise1-0-exercise1_report']
+ -    targets_done: ['exercise1-0-wrap_exercise1']
+ - targets_todo_plus_deps: ['exercise1-0-exercise1_report', 'exercise1-0-exercise1_report-write']
+targets_todo_plus_deps: ['exercise1-0-exercise1_report', 'exercise1-0-exercise1_report-write']
+add_targets():adding to todo
+ -            todo: ['exercise1-0-exercise1_report-write']
+ -        todo_add: ['exercise1-0-exercise1_report-write']
+add_targets():adding to ready
+ -           ready: []
+ -       ready_add: []
+after add_targets()
+ -            done: ['_dynreports_create_index', 'exercise1-0-wrap_exercise1']
+ -      processing: ['exercise1-0-exercise1_report']
+ -      ready_todo: []
+ -            todo: ['exercise1-0-exercise1_report-write']
+2: -  all_targets: 4
+2: -      blocked: 0
+2: -      deleted: 0
+2: -         done: 2
+2: -       failed: 0
+2: -   processing: 1
+2: -        ready: 0
+2: -         todo: 1
+2: 
+2:  In more details:
+2: -  all_targets: 4 ['_dynreports_create_index', 'exercise1-0-exercise1_report', 'exercise1-0-exercise1_report-write', 'exercise1-0-wrap_exercise1']
+2: -      blocked: -
+2: -      deleted: -
+2: -         done: 2 ['_dynreports_create_index', 'exercise1-0-wrap_exercise1']
+2: -       failed: -
+2: -   processing: 1 ['exercise1-0-exercise1_report']
+2: -        ready: -
+2: -         todo: 1 ['exercise1-0-exercise1_report-write']
+check_job_finished
+ -          job_id: exercise1-0-exercise1_report
+check_job_finished
+ -          job_id: exercise1-0-exercise1_report
+job_succeeded
+ -          job_id: exercise1-0-exercise1_report
+considering parents
+ -    parents_todo: ['exercise1-0-exercise1_report-write']
+considering opportuniny
+ -          job_id: exercise1-0-exercise1_report
+ -     opportunity: exercise1-0-exercise1_report-write
+parent is ready
+ -     opportunity: exercise1-0-exercise1_report-write
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: exercise1-0-exercise1_report
+ -        new_jobs: []
+ - user_object_deps: []
+3: -  all_targets: 4
+3: -      blocked: 0
+3: -      deleted: 0
+3: -         done: 3
+3: -       failed: 0
+3: -   processing: 0
+3: -        ready: 1
+3: -         todo: 0
+3: 
+3:  In more details:
+3: -  all_targets: 4 ['_dynreports_create_index', 'exercise1-0-exercise1_report', 'exercise1-0-exercise1_report-write', 'exercise1-0-wrap_exercise1']
+3: -      blocked: -
+3: -      deleted: -
+3: -         done: 3 ['_dynreports_create_index', 'exercise1-0-exercise1_report', 'exercise1-0-wrap_exercise1']
+3: -       failed: -
+3: -   processing: -
+3: -        ready: 1 ['exercise1-0-exercise1_report-write']
+3: -         todo: -
+chosen next_job
+ -          job_id: exercise1-0-exercise1_report-write
+start_job
+ -          job_id: exercise1-0-exercise1_report-write
+check_job_finished
+ -          job_id: exercise1-0-exercise1_report-write
+check_job_finished
+ -          job_id: exercise1-0-exercise1_report-write
+job_succeeded
+ -          job_id: exercise1-0-exercise1_report-write
+considering parents
+ -    parents_todo: []
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: exercise1-0-exercise1_report-write
+ -        new_jobs: []
+ - user_object_deps: []
+ending: -  all_targets: 4
+ending: -      blocked: 0
+ending: -      deleted: 0
+ending: -         done: 4
+ending: -       failed: 0
+ending: -   processing: 0
+ending: -        ready: 0
+ending: -         todo: 0
+ending: 
+ending:  In more details:
+ending: -  all_targets: 4 ['_dynreports_create_index', 'exercise1-0-exercise1_report', 'exercise1-0-exercise1_report-write', 'exercise1-0-wrap_exercise1']
+ending: -      blocked: -
+ending: -      deleted: -
+ending: -         done: 4 ['_dynreports_create_index', 'exercise1-0-exercise1_report', 'exercise1-0-exercise1_report-write', 'exercise1-0-wrap_exercise1']
+ending: -       failed: -
+ending: -   processing: -
+ending: -        ready: -
+ending: -         todo: -
+Coverage not detected
