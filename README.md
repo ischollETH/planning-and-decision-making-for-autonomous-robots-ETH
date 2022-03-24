@@ -3,6 +3,10 @@
 This repository contains the python programming exercises and final project for the course 'Planning and Decision Making for Autonomous Robots' (Prof. Frazzoli) @ ETH Zurich.
 For detailed descriptions, see the documentation in the `docs/` folder.
 
+The final project was awarded the full grade bonus.
+
+Credit for skeleton codes, exercise descriptions and setups go to Prof. Frazzoli and his teaching assistants ([course exercise website](https://idsc-frazzoli.github.io/PDM4AR-exercises/)).
+
 ## Exercise 1: Lexicographic comparison
 
 This introductory exercise implements a function that compares two vectors according to a lexicographic order. For each entry, lower is better. Such an order can be interesting when ranking and comparing constraints and constraint violations respectively plans for an autonomous vehicle.
